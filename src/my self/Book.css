@@ -1,0 +1,71 @@
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighten the background */
+    transform: scale(1.05); /* Scale up the component */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.book {
+    animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation */
+}
+
+
+.book:nth-child(1) {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from red to orange */
+}
+
+.book:nth-child(2) {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient from purple to blue */
+}
+
+.book:nth-child(3) {
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* Gradient from orange to pink */
+}
+
+.book:nth-child(4) {
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient from light blue to dark blue */
+}
+
+.book:nth-child(5) {
+    background: linear-gradient(to right, #ff512f, #dd2476); /* Gradient from red to pink */
+}
+
+.book h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #fff; /* Change text color to white for better contrast */
+}
+
+.book h3 {
+    font-size: 1.2em;
+    color: #fff; /* Change text color to white for better contrast */
+}
+
+.book p {
+    margin: 0.5em 0;
+    color: #fff; /* Change text color to white for better contrast */
+}
+
+.price {
+    font-weight: bold;
+    color: #fff; /* Change text color to white for better contrast */
+}
