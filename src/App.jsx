@@ -9,6 +9,7 @@ import DisplayContext from './mycomponent/DisplayContext'; // Import DisplayCont
 import MyCallBack from './mycomponent/MyCallBack'; // Import MyCallBack
 import FormHandeling from './mycomponent/FormHandeling';
 import ApiConnectivity from './mycomponent/ApiConnectivity'; // Import ApiConnectivity
+import Header from "../layout/Header"; // Ensure the correct case
 
 import CIMethod from './mycomponent/CIMethod'; // Import CIMethod
 
